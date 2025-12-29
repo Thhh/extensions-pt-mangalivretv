@@ -1,0 +1,5 @@
+extName = 'MangaLivre.tv'
+extClass = '.MangaLivreTv'
+themePkg = 'mangabox'
+baseUrl = 'https://mangalivre.tv'
+overrideVersionCode = 1
