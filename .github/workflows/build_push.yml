@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 env:
-  CI_CHUNK_SIZE: 65
+  CI_CHUNK_SIZE: 65  # <-- Ajuste aqui o tamanho do chunk
 
 jobs:
   prepare:
