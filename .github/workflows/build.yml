@@ -21,7 +21,10 @@ jobs:
           java-version: '17'
 
       - name: Build extensions
-        run: ./gradlew assembleRelease
+  run: |
+    export CI_CHUNK_SIZE=100
+    export CI_CHUNK_NUM=1
+    ./gradlew assembleRelease
 
       - name: Upload APKs
         uses: actions/upload-artifact@v4
